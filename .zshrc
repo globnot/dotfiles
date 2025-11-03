@@ -104,11 +104,12 @@ source $ZSH/oh-my-zsh.sh
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
 # === Alias utiles ===
+
+alias code='cd Code/42/common-core/'
 alias cl='clear'
 alias v='nvim'
 
-alias vim42='(source ~/.venv42/bin/activate && vim)'
-alias norm='norminette'
+alias n='norminette'
 alias wn='watch norminette'
 
 alias ll='ls -l --color=auto'
