@@ -105,6 +105,8 @@ source $ZSH/oh-my-zsh.sh
 
 # === Alias utiles ===
 
+alias gcc='gcc -Wall -Wextra -Werror'
+
 alias code='cd Code/42/common-core/'
 alias cl='clear'
 alias v='nvim'
@@ -116,6 +118,8 @@ alias ll='ls -l --color=auto'
 alias lc='ll *c'
 alias la='ls -lha --color=auto'
 alias ..='cd ..'
+
+alias ce='cat -e'
 alias bat='batcat'
 
 alias gs='git status'
