@@ -105,6 +105,8 @@ source $ZSH/oh-my-zsh.sh
 
 # === Alias utiles ===
 
+alias lock='loginctl lock-session'
+
 alias gcc='gcc -Wall -Wextra -Werror'
 
 alias code='cd Code/42/common-core/'
