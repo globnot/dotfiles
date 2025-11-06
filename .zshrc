@@ -132,7 +132,7 @@ alias ga='git add'
 alias gd='git diff'
 
 alias o='xdg-open'
-alias untar='tar -czf'
+alias untar='tar -xzf'
 alias tar='tar -cf'
 
 # === Header 42 ===
