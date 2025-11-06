@@ -107,7 +107,8 @@ source $ZSH/oh-my-zsh.sh
 
 alias lock='loginctl lock-session'
 
-alias gcc='gcc -Wall -Wextra -Werror'
+alias g='gcc -Wall -Wextra -Werror'
+alias gg='gcc -Wall -Wextra -Werror -g'
 
 alias code='cd Code/42/common-core/'
 alias cl='clear'
