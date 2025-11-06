@@ -132,6 +132,8 @@ alias ga='git add'
 alias gd='git diff'
 
 alias o='xdg-open'
+alias untar='tar -czf'
+alias tar='tar -cf'
 
 # === Header 42 ===
 export USER="aborda"
