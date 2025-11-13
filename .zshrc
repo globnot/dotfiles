@@ -154,3 +154,7 @@ export MAIL="aborda@student.42.fr"
 
 # Created by `pipx` on 2025-09-12 08:58:04
 export PATH="$PATH:/home/antoine/.local/bin"
+
+alias francinette=/home/aborda/francinette/tester.sh
+
+alias paco=/home/aborda/francinette/tester.sh
