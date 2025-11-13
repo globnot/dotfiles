@@ -105,6 +105,16 @@ source $ZSH/oh-my-zsh.sh
 
 # ---- Aliases & functions ----
 
+# Git
+alias gs='git status'
+alias gf='git fetch'
+alias gpl='git pull'
+alias gc='git commit -m'
+alias gp='git push'
+
+# Display
+alias al='alias | grep'
+
 # Clear et navigation
 alias cl='clear'
 alias ..='cd ..'
