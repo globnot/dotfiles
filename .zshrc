@@ -103,41 +103,40 @@ source $ZSH/oh-my-zsh.sh
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
-# === Alias utiles ===
+# ---- Aliases & functions ----
 
-alias lock='loginctl lock-session'
-
-alias c='cc -Wall -Wextra -Werror'
-alias cc='cc -Wall -Wextra -Werror -g'
-
-alias code='cd Code/42/common-core/'
+# Clear et navigation
 alias cl='clear'
-alias v='nvim'
+alias ..='cd ..'
 
+# Éditeur et code
+alias v='nvim'
+alias code='cd Code/42/common-core/'
+
+# Norminette
 alias n='norminette'
 alias wn='watch norminette'
 
-alias ll='ls -l --color=auto'
+# Listing fichiers
+alias ll='ls -l'
+alias la='ls -lha'
 alias lc='ll *c'
-alias la='ls -lha --color=auto'
-alias ..='cd ..'
 
+# Affichage
 alias ce='cat -e'
 alias bat='batcat'
-
-alias gr='git remote set-url origin'
-alias gf='git fetch'
-alias gs='git status'
-alias gpl='git pull'
-alias gc='git commit -m'
-alias gp='git push'
-alias ga='git add'
-alias gd='git diff'
-
 alias o='xdg-open'
 
+# Tar
 alias mtar='tar -cf'
 alias untar='tar -xf'
+
+# Compiler C
+alias c='cc -Wall -Wextra -Werror'
+alias cc='cc -Wall -Wextra -Werror -g'
+
+# Ubuntu
+alias lock='loginctl lock-session'
 
 # === Header 42 ===
 export USER="aborda"
