@@ -112,6 +112,10 @@ alias gpl='git pull'
 alias gc='git commit -m'
 alias gp='git push'
 
+# Makefile
+alias m='make'
+alias mt='make test && ./test'
+
 # Display
 alias al='alias | grep'
 
@@ -155,6 +159,7 @@ export MAIL="aborda@student.42.fr"
 # Created by `pipx` on 2025-09-12 08:58:04
 export PATH="$PATH:/home/antoine/.local/bin"
 
-alias francinette=/home/aborda/francinette/tester.sh
+alias francinette=/home/antoine/francinette/tester.sh
 
-alias paco=/home/aborda/francinette/tester.sh
+alias paco=/home/antoine/francinette/tester.sh
+export PATH=/home/antoine/.local/funcheck/host:$PATH
