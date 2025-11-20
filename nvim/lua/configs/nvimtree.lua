@@ -9,6 +9,9 @@ local options = {
 			resize_window = false,
 		},
 	},
+	filters = {
+		dotfiles = false,
+	},
 }
 
 return options
