@@ -149,7 +149,7 @@ alias untar='tar -xf'
 # Compiler C
 alias cc='cc -Wall -Wextra -Werror'
 alias ccg='cc -Wall -Wextra -Werror -g'
-alias ccb='cc -Wall -Wextra -Werror -D BUFFER_SIZE=100'
+alias ccb='cc -Wall -Wextra -Werror -D BUFFER_SIZE=5'
 
 # Ubuntu
 alias lock='loginctl lock-session'
