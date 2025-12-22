@@ -114,7 +114,7 @@ alias gp='git push'
 
 # Makefile
 alias m='make'
-alias mt='make test && ./test'
+alias mm='make && ./push_swap'
 
 # Display
 alias al='alias | grep'
