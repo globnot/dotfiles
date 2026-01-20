@@ -125,7 +125,7 @@ alias ..='cd ..'
 
 # Éditeur et code
 alias v='nvim'
-alias code='cd && cd Code/42/projects/common-core/'
+alias coco='cd && cd Code/42/projects/common-core/'
 alias 42='cd && cd Code/42/'
 
 # Norminette
