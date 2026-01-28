@@ -132,6 +132,7 @@ alias 42='cd && cd Code/42/'
 alias n='norminette'
 alias nn='norminette srcs includes'
 alias wn='watch norminette'
+alias wnn='watch norminette srcs includes'
 
 # Listing fichiers
 alias ll='ls -l'
