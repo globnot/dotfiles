@@ -130,6 +130,7 @@ alias 42='cd && cd Code/42/'
 
 # Norminette
 alias n='norminette'
+alias nn='norminette srcs includes'
 alias wn='watch norminette'
 
 # Listing fichiers
